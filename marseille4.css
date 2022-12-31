@@ -154,3 +154,15 @@ main section div {
   
   
 }
+@media screen and (max-width:1000px){
+    section {
+        flex-direction: column !important;
+    }
+    main section img {
+        flex: 1;
+        height: auto;
+        width: 100%;
+        padding: 10px;
+    }
+}
+Footer
